@@ -14,6 +14,7 @@
 ActiveRecord::Schema.define(version: 20150531005320) do
 
   create_table "signups", force: true do |t|
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
